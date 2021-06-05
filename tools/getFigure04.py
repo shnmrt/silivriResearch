@@ -18,6 +18,7 @@ def getFigure(slipType, friction):
     fig = make_subplots(
         rows=2, cols=2,
         vertical_spacing=0.05,
+        horizontal_spacing=0.05,
         specs=[
             [{'type':'scene'},{'type':'scene'}],
             [{'type':'scene'},{'type':'scene'}]
